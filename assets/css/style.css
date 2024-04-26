@@ -598,9 +598,7 @@ button, a { transition: var(--transition); }
 }
 
 .service-card .card-icon {
-  width: max-content;
-  margin-inline: auto;
-  margin-bottom: 20px;
+   display: ruby;
 }
 
 .service-card .card-title { margin-bottom: 15px; }
@@ -1646,12 +1644,8 @@ button, a { transition: var(--transition); }
 
 }
 
-.card-icon img{
+.service-card .card-icon img{
   width: 20%;
   text-align: center;
   margin-bottom: 20px;
-}
-
-.card-icon{
-    display: ruby;
 }
