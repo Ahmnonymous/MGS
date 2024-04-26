@@ -1645,3 +1645,13 @@ button, a { transition: var(--transition); }
   .footer-link-box { flex-basis: 700px; }
 
 }
+
+.card-icon img{
+  width: 20%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-icon{
+    display: ruby;
+}
